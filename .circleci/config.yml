@@ -42,4 +42,4 @@ notify:
         # canax
         - url: https://webhooks.gitter.im/e/c8ff44f50de935adf880
         # canax/anax-design-me
-        #- url: https://webhooks.gitter.im/e/f23bff5d4e3b85bcd1b1
+        - url: https://webhooks.gitter.im/e/c67a9ebdb0a77a3528bc
