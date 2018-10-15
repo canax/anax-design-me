@@ -3,7 +3,7 @@ Revision history
 
 
 
-v1.0.2 (2018-09-25)
+v1.0.2 (2018-10-15)
 ---------------------------------
 
 * Start using anax/content.
