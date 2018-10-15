@@ -18,8 +18,12 @@ rm -f content/about.md
 # Get items from htdocs/.
 rsync -a vendor/anax/anax-design-me/htdocs ./
 
+# Get the Makefile.
+rsync -a vendor/anax/anax-design-me/Makefile ./
+
 # Get own copy of view files.
-rsync -a vendor/anax/view/view/anax/v2 ./view/anax/
+rsync -a vendor/anax/view/view ./
+rsync -a vendor/anax/anax-design-me/view ./
 
 # Change baseTitle
 sedi "s/ | Anax/ | design/g" config/page.php
