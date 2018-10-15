@@ -30,3 +30,11 @@ sedi "s/ | Anax/ | design/g" config/page.php
 
 # Remove htdocs/cimage/index.html to ease debugging
 rm -f htdocs/cimage/index.html
+
+# Get configuration for the cache.
+# @TODO Move this to Anax Flat.
+rsync -a vendor/anax/cache/config ./
+
+# Get configuration for the flat file content.
+# @TODO Move this to Anax Flat.
+rsync -a vendor/anax/content/config ./
