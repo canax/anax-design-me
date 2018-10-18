@@ -18,6 +18,10 @@ rm -f content/about.md
 # Get items from htdocs/.
 rsync -a vendor/anax/anax-design-me/htdocs ./
 
+# Get/remove items from src/.
+rm -rf src/Controller
+rsync -a vendor/anax/anax-design-me/src ./
+
 # Get the Makefile.
 rsync -a vendor/anax/anax-design-me/Makefile ./
 
