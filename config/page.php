@@ -22,7 +22,6 @@ return [
                 "css/style.css",
             ],
             "javascripts" => [
-                "js/main.js",
                 "js/responsive-menu.js",
             ],
         ],
@@ -30,12 +29,6 @@ return [
 
     // These views are always loaded into the collection of views.
     "views" => [
-        // [
-        //     "region" => "header",
-        //     "template" => "anax/v2/header/default",
-        //     "data" => [
-        //     ],
-        // ],
         [
             "region" => "header-col-1",
             "template" => "anax/v2/header/site_logo",
@@ -69,13 +62,6 @@ return [
                 "navbarConfig" => require __DIR__ . "/navbar/responsive.php",
             ],
         ],
-        // [
-        //     "region" => "navbar",
-        //     "template" => "anax/v2/navbar/default",
-        //     "data" => [
-        //         "navbarConfig" => require __DIR__ . "/navbar/plain.php",
-        //     ],
-        // ],
         [
             "region" => "footer",
             "template" => "anax/v2/columns/multiple_columns",
