@@ -23,7 +23,7 @@ namespace Anax\View;
                     <?php foreach ($styles as $key => $value) :
                         $selected = $key === $activeStyle ? "selected=\"selected\"" : null;
                         ?>
-                        <option <?= $selected ?> value="<?= $key ?>"><?= "$key: {$value["shortDescription"]}" ?></option>
+                        <option <?= $selected ?> value="<?= $key ?>"><?= "[ $key ] - {$value["shortDescription"]}" ?></option>
                     <?php endforeach; ?>
                 </select>
             </label>
