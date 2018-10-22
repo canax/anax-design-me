@@ -3,10 +3,10 @@ Revision history
 
 
 
-v1.0.10 (2018-10-22)
+v1.0.11 (2018-10-22)
 ---------------------------------
 
-* Cleaning up.
+* Testing and cleaning up.
 
 
 
