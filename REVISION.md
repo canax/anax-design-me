@@ -3,6 +3,20 @@ Revision history
 
 
 
+v1.0.19 (2019-11-01)
+---------------------------------
+
+* Update Makefile to latest version (make theme and fix with pathnames in help).
+
+
+
+v1.0.18 (2019-11-01)
+---------------------------------
+
+* Update Makefile to latest version (make theme).
+
+
+
 v1.0.17 (2019-11-01)
 ---------------------------------
 
