@@ -3,6 +3,13 @@ Revision history
 
 
 
+v1.0.21 (2020-04-03)
+---------------------------------
+
+* Update Makefile with make theme to copy files from theme/.
+
+
+
 v1.0.20 (2019-12-10)
 ---------------------------------
 
